@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+input, button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, h1, h2, h3, h4, p {
+  color: #323b56;
+}
+
+body {
+  background-color: #50aaf9;
+}
+
+div#search_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.62rem;
+  -webkit-box-shadow: 0 1.25rem 1.8rem rgba(8, 21, 65, 0.25);
+          box-shadow: 0 1.25rem 1.8rem rgba(8, 21, 65, 0.25);
+  margin: 2rem;
+  height: 100%;
+}
+
+div#search_header div#search h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: gray;
+}
+
+div#search_header div#search input {
+  font-size: 1rem;
+  padding: 0.5rem 4rem;
+  border: 2px solid #50aaf9;
+  color: #222a43;
+  border-radius: 1rem;
+}
+
+div#search_header div#search button {
+  cursor: pointer;
+  font-size: 1rem;
+  background-color: #50aaf9;
+  color: #fff;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+}
+
+div#search_header div.result {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1.5rem;
+}
+
+div#search_header div.result img {
+  width: 40%;
+  border-radius: 1rem;
+}
+
+div#search_header div.result div.wrapper {
+  display: inline;
+  max-width: 700px;
+  margin: 2rem;
+}
+
+div#search_header div.result div.wrapper h3 {
+  font-size: 1.75rem;
+}
+
+div#search_header div.result div.wrapper p {
+  text-align: justify;
+}
+
+div#search_header div.result a {
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: #50aaf9;
+  color: #fff;
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
